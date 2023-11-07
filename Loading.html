@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading please wait...</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .o{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: gray;
+            margin-left: -50px;
+            animation: o1 10s 2s  infinite;
+            visibility: visible;
+        }
+        @keyframes o1 {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            75% {background-color: green;}
+
+        }
+        .o2{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: gray;
+            margin-top: -40px;
+            margin-left: 50px;
+            animation: o2 10s 3s infinite;
+            visibility: visible;
+        }
+        @keyframes o2 {
+            0%    {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            75% {background-color: green;}    
+     
+        }
+        .o3{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: gray;
+            margin-left: -50px;
+            margin-top: 10px;
+            animation: o3 10s 5s infinite;
+            visibility: visible;
+        }
+        @keyframes o3 {
+            0%    {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            75% {background-color: green;}
+         
+        }
+        .o4{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: gray;
+            margin-left: 50px;
+            margin-top: -40px;
+            animation: o4 10s 4s infinite;
+            visibility: visible;
+        }
+        @keyframes o4 {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            50%  {background-color: blue;}
+            75% {background-color: green;}  
+     
+        }
+        .klmp{
+            margin-top: 250px;
+            height: px;
+            width: 500px;
+        }
+        .start{
+            margin-top: -100px;
+            height: 100px;
+            width: 200px;
+            visibility: hidden;
+            animation: baaa 11s 11s infinite;
+            position: relative;
+        }
+        @keyframes baaa {
+            from{visibility: hidden;}
+            to {visibility: visible;}
+        }
+        .link{
+            height: 100px;
+            width: 200px;
+            background-color: rgb(34, 34, 34);
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="klmp">
+            <div class="o"></div>
+            <div class="o2"></div>
+            <div class="o3"></div>
+            <div class="o4"></div>
+        </div>
+        <div class="start"><a href="index.html"><div class="link">Open App</div> </div>
+</body>
+</html>

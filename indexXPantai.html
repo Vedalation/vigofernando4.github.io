@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .matahari{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: rgb(255, 217, 0);
+            margin-top: 150px;
+        }
+        .BL{
+            margin-top: -100px;
+            width: 500px;
+            height: 100px;
+            background-color: rgb(31, 200, 252);
+        }
+        .Kapall{
+            margin-top: -60px;
+            margin-left: 250px;
+            animation-name: kapal;
+            animation: kapal 5s infinite;
+            position: relative;
+        }
+        @keyframes kapal {
+            0%   {left: 50px;}
+            50%  {left: 0px;}
+            100% {left: 50px;}
+        }
+        .go{
+            margin-top: 50px;
+            background-color: #111c24;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            animation: click 2s ;
+            position: relative;
+        }
+        @keyframes click {
+            0%{visibility: hidden;}
+            20%{opacity: 1%;}
+            100%{visibility: visible;}
+        }
+        h1{
+            color: aliceblue;
+        }
+        .byg{
+            margin-top: -40px;
+            height: 5px;
+            width: 150px;
+            background-color: #ffc400;
+        }
+        .byg2{
+            margin-top: 1px;
+            height: 5px;
+            width: 140px;
+            background-color: #ffc400;
+        }
+        .byg3{
+            margin-top: 1px;
+            height: 5px;
+            width: 130px;
+            background-color: #ffc400;
+        }
+        .byg4{
+            margin-top: 1px;
+            height: 5px;
+            width: 120px;
+            background-color: #ffc400;
+        }
+        .byg5{
+            margin-top: 1px;
+            height: 5px;
+            width: 150px;
+            background-color: #ffc400;
+        }
+        .byg6{
+            margin-top: 1px;
+            height: 5px;
+            width: 100px;
+            background-color: #ffc400;
+        }
+        .byg7{
+            margin-top: 1px;
+            height: 5px;
+            width: 90px;
+            background-color: #ffc400;
+        }
+    </style>
+</head>
+<body>
+    <center><H1>Welcome to the shop</H1></center>
+    <center><div class="matahari"></div>
+        <div class="BL">
+            <img class="Kapall" src="Kapal.png" alt="yuhuuu" height="100px">
+            <div class="byg"></div>
+            <div class="byg2"></div>
+            <div class="byg3"></div>
+            <div class="byg4"></div>
+            <div class="byg5"></div>
+            <div class="byg6"></div>
+            <div class="byg7"></div>
+        </div>
+    </center>
+    <center><a href="Loading.html"><div class="go">Click me</div></a>
+</body>
+</html>
